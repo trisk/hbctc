@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+404	404.html	/^  <h1>404<\/h1>$/;"	h
+Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
+To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults	index.md	/^# To modify the layout, see https:\/\/jekyllrb.com\/docs\/themes\/#overriding-theme-defaults$/;"	c
+categories: jekyll update	_posts/2021-02-22-welcome-to-jekyll.markdown	/^categories: jekyll update$/;"	s
+layout: home	index.md	/^layout: home$/;"	s
+permalink: /about/	about.md	/^permalink: \/about\/$/;"	s
