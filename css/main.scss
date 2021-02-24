@@ -31,9 +31,9 @@
   top: 0;
   left: 0;
   opacity: 1;
-  -webkit-animation: fadeOut 1s ease 2s forwards;
-     -moz-animation: fadeOut 1s ease 2s forwards;
-          animation: fadeOut 1s ease 2s forwards;
+  -webkit-animation: fadeOut 0.5s ease 2s forwards;
+     -moz-animation: fadeOut 0.5s ease 2s forwards;
+          animation: fadeOut 0.5s ease 2s forwards;
 }
 
 .second {
@@ -41,9 +41,9 @@
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-animation: fadeIn 1s ease 3s forwards;
-     -moz-animation: fadeIn 1s ease 3s forwards;
-          animation: fadeIn 1s ease 3s forwards;
+  -webkit-animation: fadeIn 0.5s ease 2.5s forwards;
+     -moz-animation: fadeIn 0.5s ease 2.5s forwards;
+          animation: fadeIn 0.5s ease 2.5s forwards;
 }
 
 .container {
