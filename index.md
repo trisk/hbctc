@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# No.
+
 ## President Biden has **not** closed ICE's migrant detention camps yet.
 
 ---
