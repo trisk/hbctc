@@ -18,33 +18,32 @@
 }
 
 @-webkit-keyframes fadeOut {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 @keyframes fadeOut {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {opacity: 1;}
+  to {opacity: 0;}
 }
 
 .first {
-  -webkit-animation: fadeOut 1s ease;
-  -webkit-animation-delay: 2s;
-  animation: fadeOut 1s ease;
-  animation-delay: 2s;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 1;
+  -webkit-animation: fadeOut 1s ease 2s forwards;
+     -moz-animation: fadeOut 1s ease 2s forwards;
+          animation: fadeOut 1s ease 2s forwards;
 }
 
 .second {
-  opacity: 0;
-  -webkit-animation: fadeIn 1s ease;
-  -webkit-animation-delay: 3s;
-  animation: fadeIn 1s ease;
-  animation-delay: 3s;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s ease 3s forwards;
+     -moz-animation: fadeIn 1s ease 3s forwards;
+          animation: fadeIn 1s ease 3s forwards;
 }
 
 .container {
